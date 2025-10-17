@@ -1,0 +1,5 @@
+.env
+null_accounts.db
+tgs.txt
+__pycache__/
+*.pyc

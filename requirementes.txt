@@ -1,0 +1,4 @@
+selenium==4.25.0
+beautifulsoup4==4.12.3
+undetected-chromedriver==3.5.5
+python-dotenv==1.0.1
