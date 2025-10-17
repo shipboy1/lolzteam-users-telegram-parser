@@ -14,10 +14,10 @@ import sqlite3  # Для БД
 load_dotenv()
 # Настройки
 URL = "https://lolz.live/"
-MIN_LIKES = os.getenv('MIN_SYMPHATY')
+MIN_LIKES = int(os.getenv('MIN_SYMPHATY'))
 NUM_IDS = 5000  # Количество случайных ID для проверки (можно изменить)
-MIN_ID = os.getenv('MIN_RANDOM_ID') 
-MAX_ID = os.getenv('MAX_RANDOM_ID') 
+MIN_ID = int(os.getenv('MIN_RANDOM_ID'))
+MAX_ID = int(os.getenv('MAX_RANDOM_ID'))
 OUTPUT_FILE = 'tgs.txt'  # Файл для сохранения тг
 DB_FILE = 'null_accounts.db'  # БД для нулевых акков
 PAGE_LOAD_TIMEOUT = 5  # Таймаут загрузки страницы в секундах
